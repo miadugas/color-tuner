@@ -26,7 +26,7 @@ function App() {
     <h3>color tuner</h3>
     <form onSubmit={handleSubmit}>
       <input type="text" value={color} onChange={(e) => setColor(e.target.value)}
-      placeholder="#00000" 
+      placeholder="ie: #7f00ff" 
       className={`${error ? 'error' : null}`}
       />
       <button className="btn" type="submit">
@@ -35,7 +35,18 @@ function App() {
     </form>
   </section>
   <section className="colors">
-    {list.map}
+  {list.map((color, index) => {
+          // console.log(color)
+          const hex = color.hex
+          return (
+            <SingleColor
+              key={index}
+              {...color}
+              index={index}
+              hexColor={color.hex}
+            />
+          )
+        })}
   </section>
   </>
   );
