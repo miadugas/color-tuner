@@ -16,6 +16,9 @@ JavaScript, NodeJs, ReactJS
 
 <hr>
 
+### CodePen Resources
+#### JS Function RGB to Hex
+https://codepen.io/miadugas/pen/qBREaYg
 
 
 
