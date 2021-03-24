@@ -5,12 +5,15 @@
 ## Description
 The user inputs a hex color and returned are the tints (lighter colors) and shades (darker colors) of the hex color. Useful while putting together UI direction when looking the the perfect combination of colors. Once a color is selected user can click the color to copy it to the clipboard.
 
+<hr>
 
 ![Main View](https://github.com/miadugas/color-tuner/blob/main/color-tuner.png)
 
 
 ## Technology Used
 JavaScript, NodeJs, ReactJS 
+
+<hr>
 
 ### Additional Styling Framework
 
@@ -19,8 +22,6 @@ JavaScript, NodeJs, ReactJS
 ### CodePen Resources
 #### JS Function RGB to Hex
 https://codepen.io/miadugas/pen/qBREaYg
-
-
 
 <hr>
 
