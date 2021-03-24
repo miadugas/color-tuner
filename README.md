@@ -6,7 +6,7 @@
 
 
 
-<!-- ![Main View](https://github.com/miadugas/ImageShrinker/blob/main/assets/imageShrinker.png) -->
+![Main View](https://github.com/miadugas/color-tuner/blob/main/color-tuner.png)
 
 
 ## Technology Used
